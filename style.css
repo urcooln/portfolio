@@ -1,0 +1,10 @@
+body {
+    /* Replace 'path/to/your-background-image.jpg' with the actual path to your image file */
+    background-image: url("images/safar-safarov-koOdUvfGr4c-unsplash.jpeg");
+    /* Set background size to cover the entire viewport */
+    background-size:cover;
+    /* Optionally, you can set background repeat and position if needed */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
