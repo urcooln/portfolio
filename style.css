@@ -8,3 +8,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.portrait {
+    object-fit: cover;
+    aspect-ratio: 1;
+}

@@ -10,14 +10,35 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
-    <!-- JavaScript Bundle with Popper -->
-    <div class="container">
+
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#avatar"><h2><i class="bi bi-house"></i></h2></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>   
+<!--Main Container-->
+    <div class="container-xxl">
         <div class="row justify-content-center">
-            <div class= "col-md-6 mt-5 p-4 bg-white justify-content-center rounded">
+            <div class= "col-md-7 mt-5 p-4 bg-white justify-content-center rounded">
 <!--Avatar-->
-                    <img src="images/IMG_3121.jpeg" alt="Avatar" class="rounded-circle img-fluid">    
+                    <div class="text-center">
+                    <img src="images/IMG_3121.jpeg" alt="Avatar" class=" rounded-circle img-fluid" id="avatar"></div>    
 <!-- Name + Job Title -->
-                <h1 style="text-align: center;">John Jimenez</h1>
+                <h1 class="display-1"style="text-align: center;">John Jimenez</h1>
                 <h6 style="text-align: center;">Web Developer</h6>
 <!--Icons-->
                 <div class="row">
@@ -27,6 +48,76 @@
                         <li><h2><a href="https://github.com/urcooln"><i class="bi bi-github"></i></a></h2></li>
                     </ul>
                 </div>
+                <hr>
+<!--About me-->
+<h2 style="text-align: center;" id="aboutme">About Me</h2>
+<div class="pb-1"></div>
+
+<!--About Me Card-->
+<div class="card border-1" style="width: 100%;">
+  <img src="images/IMG_9239.jpg" class="card-img-top img-fluid portrait" alt="...">
+  <div class="card-body">
+    <hr>
+    <p class="card-text"> I'm a Web Developer who is committed to crafting exceptional web experiences that leave a lasting impression. I'm thrilled to be a part of this ever-changing digital landscape, and I'm eager to bring innovative ideas to life through my skills and passion for web development. Let's create something amazing together! 🚀</p>
+
+  </div>
+</div>
+<div class="pb-3"></div>
+
+
+<hr>
+<!--Portfolio-->
+                <h2 style="text-align: center;" id="portfolio">Portfolio</h2>
+                <div class="pb-2"></div>
+
+<!--Portfolio Card-->
+                <div class="card border-1" style="width: 100%;">
+                  <video src="images/airbnbnewsmp4.mp4" class="card-img-top img-fluid" alt="..." autoplay="true" loop></video>
+                  <div class="card-body">
+                    <h5 class="card-title">Airbnb Newsroom Clone</h5>
+                    <p class="card-text">Clone of the Airbnb Newsroom Homepage. Using Bootstrap 4, HTML, And CSS.</p>
+                    <a href="https://urcooln.github.io/airbnbnewsroom/" class="btn btn-primary"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="pb-3"></div>
+<!--Portfolio Card-->
+                <div class="card border-1" style="width: 100%;">
+                  <img src="images/Screenshot 2023-08-03 094214.png" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apple Clone</h5>
+                    <p class="card-text">Apple Homepage clone using HTML and CSS.</p>
+                    <a href="https://urcooln.github.io/Apple_Clone/" class="btn btn-primary"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="pb-3"></div>
+
+<!--Portfolio Card-->
+                <div class="card border-1" style="width: 100%;">
+                  <img src="images/newsweekscreenshot.png" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Newsweek Clone</h5>
+                    <p class="card-text">Newsweek Homepage clone using HTML,CSS, and Bootstrap.</p>
+                    <a href="https://urcooln.github.io/newsweek/" class="btn btn-primary"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="pb-3"></div>
+
+<hr>
+<!--Footer-->
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#avatar" class="nav-link px-2 text-body-secondary">Home</a></li>
+    <li class="nav-item"><a href="#aboutme" class="nav-link px-2 text-body-secondary">About Me</a></li>
+    <li class="nav-item"><a href="#portfolio" class="nav-link px-2 text-body-secondary">Portfolio</a></li>
+  </ul>
+  <p class="text-center text-body-secondary">© 2023 John Jimenez</p>
+  <p class="text-center text-body-secondary">Part of Altcademy's Fullstack Program <a href="https://www.altcademy.com/"><button type="button" class="btn btn-primary btn-sm">Learn More</button></a>
+  </p>
+  
+
+</footer>
+
+
         </div>
     </div>
 
